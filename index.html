@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    
+    <script>
+        $( function() {
+          $( "#menu" ).menu();
+        } );
+
+        $( function() {
+        $( "#dialog" ).dialog();
+        } );
+
+        </script>
+
+        <style>
+        .ui-menu { width: 150px; }
+        </style>
+    
+    <title>Buechle - jQuery API Demos Project</title>
+
+</head>
+<nav>
+    <ul id="menu">
+        <li class="list"><div>Links</div>
+          <ul id="dropdown">
+            <li><div><a href="https://www.britannica.com/animal/emperor-penguin" class="nav">Penguin Info</a></div></li>
+            <li><div><a href="https://www.youtube.com/watch?v=sHhdT3s4TBU" class="nav">Documentry</a></div></li>
+            <li><div><a href="https://lifeguin.com/help-save-penguin/" class="nav">Donate</a></div></li>
+          </ul>
+        </li>
+      </ul>
+    <h1>Emperor Penguins</h1>
+</nav>
+<body>
+    <div id="dialog" title="Welcome!">
+        <p>Thanks for stopping by.</p>
+      </div>
+    <main>
+    <img src="penguin.jpg" alt="Emperor Penguin laying down">
+    <p>
+        Wild Emperor penguins are only found in Antarctica. They breed and raise their young mostly on ‘fast ice’, a floating 
+        platform of frozen ocean which is connected to the land or to ice shelves. From birth, they spend their entire lives in 
+        and around the Antarctic ice, although very rarely vagrants have turned up off the coast of New Zealand.
+    </p>
+    <p>
+        Emperors are the biggest of the 18 species of penguin found today, and one of the largest of all birds. They are approximately 
+        120cm tall (about the height of a six year old child) and weigh in at around 40 kg, though their weight does fluctuate dramatically 
+        throughout the year.
+    </p>
+    <p>
+        But they would be dwarfed by the ancient ‘mega-penguins’. Fossils recovered from the Antarctic Peninsula reveal that a colossus species 
+        of penguin which lived about 37 million years ago may have stood 2m tall and weighed as much as 115 kg.
+    </p>
+    <img src="emperor_penguin.jpg" alt="Emperor Penguins">
+    <p>
+        Emperors are the least common Antarctic penguin, with global population estimates of 265,500–278,500 breeding pairs. We're funding research 
+        in the Antarctic, because the more we know about these creatures, the better we can protect them. This will encourage the formation of Marine 
+        Protected Areas and will help in protecting the species in the face of climate change.
+    </p>
+    </main>
+    <footer>
+        <table class="footer">
+            <tr>
+            <td>
+                <p>
+                123 Pine Street
+                <br />Seattle, Washington 98310
+                <br />
+                <br />&copy;2023 Becca Buechle
+                </p>
+            </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
+

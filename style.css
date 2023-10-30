@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(202, 198, 195);
+    padding: 0;
+    margin: 0;
+}
+footer {
+    background-color: black;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    flex: none;
+    color: rgb(226, 169, 40);
+}
+
+nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    min-height: 100px;
+    flex: none;
+}
+
+h1 {
+    color: rgb(226, 169, 40);
+    margin-right: 50px;
+    margin-left: auto;
+}
+
+img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+p {
+    margin: 50px;
+}
+
+#dropdown {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    list-style: none;
+    border: 1px solid rgb(202, 198, 195);
+}
+
+#menu {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.menu {
+    width: 32px;
+    height: auto;
+}
+
+.nav {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    width: 100%;
+    display: inline-block;
+}
+
+
